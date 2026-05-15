@@ -1,0 +1,530 @@
+{
+    "config": {
+        "port": 3000,
+        "os": "linux",
+        "editor": {
+            "mode": "extension",
+            "agent": "vscode",
+            "version": "5.0"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "https://curly-capybara-g4rvv46vp557cjrr-3000.app.github.dev",
+        "contact": "https://github.com/learnpack/learnpack/issues/new",
+        "language": "auto",
+        "autoPlay": true,
+        "projectType": "tutorial",
+        "grading": "isolated",
+        "exercisesPath": "./exercises",
+        "webpackTemplate": null,
+        "disableGrading": false,
+        "disabledActions": [],
+        "actions": [],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "suggestions": {
+            "agent": "vscode"
+        },
+        "warnings": {
+            "agent": null
+        },
+        "slug": "getting-data-from-apis-for-beginners",
+        "duration": 8,
+        "difficulty": "easy",
+        "title": {
+            "us": "Getting data from APIs for Beginners",
+            "es": "Obteniendo datos de APIs para Principiantes"
+        },
+        "description": {
+            "us": "Practice beginner-friendly GET requests and nested JSON navigation using JavaScript.",
+            "es": "Practica peticiones GET para principiantes y navegacion de JSON anidado usando JavaScript."
+        },
+        "template_url": "self",
+        "repository": "https://github.com/4GeeksAcademy/getting-data-from-apis-for-beginners",
+        "preview": "https://raw.githubusercontent.com/4GeeksAcademy/getting-data-from-apis-for-beginners/main/.learn/preview.png",
+        "sharing": [
+            {
+                "en": "I just completed Using an API for Beginners with LearnPack @4GeeksAcademy. Check it out: https://github.com/4GeeksAcademy/getting-data-from-apis-for-beginners #AIEngineering #LearnPack #4GeeksAcademy #javascript #json #restapi",
+                "es": "Acabo de completar Usando una API para Principiantes con LearnPack @4GeeksAcademy. Mira el proyecto: https://github.com/4GeeksAcademy/getting-data-from-apis-for-beginners #AIEngineering #LearnPack #4GeeksAcademy #javascript #json #restapi"
+            },
+            {
+                "en": "Built and shipped: Using an API for Beginners. Learning by building with @4GeeksAcademy. https://github.com/4GeeksAcademy/getting-data-from-apis-for-beginners #AIEngineering #LearnPack #4GeeksAcademy #javascript #json #restapi",
+                "es": "Construido y publicado: Usando una API para Principiantes. Aprendiendo con proyectos reales en @4GeeksAcademy. https://github.com/4GeeksAcademy/getting-data-from-apis-for-beginners #AIEngineering #LearnPack #4GeeksAcademy #javascript #json #restapi"
+            }
+        ],
+        "gitpod": true,
+        "technologies": [
+            "javascript",
+            "json",
+            "rest api",
+            "fetch",
+            "http",
+            "get requests"
+        ],
+        "videoSolutions": false,
+        "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+        "graded": true,
+        "localhostOnly": true,
+        "delivery": {
+            "formats": [
+                "no_delivery"
+            ]
+        },
+        "translations": [
+            "es",
+            "en"
+        ]
+    },
+    "address": "https://curly-capybara-g4rvv46vp557cjrr.github.dev",
+    "currentExercise": "10-item-status",
+    "exercises": [
+        {
+            "position": 0,
+            "path": "exercises/00-welcome",
+            "slug": "00-welcome",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "00-welcome",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/00-welcome/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/00-welcome/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": "exercises/01-first-get",
+            "slug": "01-first-get",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "exercises/01-first-get/app.js",
+            "title": "01-first-get",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/01-first-get/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01-first-get/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01-first-get/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/01-first-get/solution.hide.js",
+                    "name": "solution.hide.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01-first-get/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 2,
+            "path": "exercises/02-basic-dot-notation",
+            "slug": "02-basic-dot-notation",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "02-basic-dot-notation",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/02-basic-dot-notation/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-basic-dot-notation/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-basic-dot-notation/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/02-basic-dot-notation/solution.hide.js",
+                    "name": "solution.hide.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-basic-dot-notation/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 3,
+            "path": "exercises/03-basic-bracket-notation",
+            "slug": "03-basic-bracket-notation",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "03-basic-bracket-notation",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/03-basic-bracket-notation/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-basic-bracket-notation/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-basic-bracket-notation/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/03-basic-bracket-notation/solution.hide.js",
+                    "name": "solution.hide.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-basic-bracket-notation/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 4,
+            "path": "exercises/04-arrays",
+            "slug": "04-arrays",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "04-arrays",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/04-arrays/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-arrays/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-arrays/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/04-arrays/solution.hide.js",
+                    "name": "solution.hide.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-arrays/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 5,
+            "path": "exercises/05-array-of-objects",
+            "slug": "05-array-of-objects",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "05-array-of-objects",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/05-array-of-objects/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-array-of-objects/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-array-of-objects/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/05-array-of-objects/solution.hide.js",
+                    "name": "solution.hide.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-array-of-objects/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 6,
+            "path": "exercises/06-mixed-json-paths",
+            "slug": "06-mixed-json-paths",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "06-mixed-json-paths",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/06-mixed-json-paths/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-mixed-json-paths/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-mixed-json-paths/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/06-mixed-json-paths/solution.hide.js",
+                    "name": "solution.hide.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-mixed-json-paths/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 7,
+            "path": "exercises/07-get-by-id",
+            "slug": "07-get-by-id",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "07-get-by-id",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/07-get-by-id/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07-get-by-id/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07-get-by-id/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/07-get-by-id/solution.hide.js",
+                    "name": "solution.hide.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07-get-by-id/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 8,
+            "path": "exercises/08-list-count",
+            "slug": "08-list-count",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "08-list-count",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/08-list-count/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/08-list-count/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/08-list-count/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/08-list-count/solution.hide.js",
+                    "name": "solution.hide.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/08-list-count/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 9,
+            "path": "exercises/09-first-item-title",
+            "slug": "09-first-item-title",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "09-first-item-title",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/09-first-item-title/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/09-first-item-title/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/09-first-item-title/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/09-first-item-title/solution.hide.js",
+                    "name": "solution.hide.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/09-first-item-title/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 10,
+            "path": "exercises/10-item-status",
+            "slug": "10-item-status",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "entry": "app.js",
+            "title": "10-item-status",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/10-item-status/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/10-item-status/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/10-item-status/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/10-item-status/solution.hide.js",
+                    "name": "solution.hide.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/10-item-status/test.js",
+                    "name": "test.js",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        }
+    ],
+    "bugsLink": null,
+    "videoSolutions": false,
+    "localhostOnly": false,
+    "session": 7935707651163255000
+}
